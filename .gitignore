@@ -3,3 +3,13 @@
 .env.local
 .env.development
 node_modules/
+
+# Sensitive environment variables
+fairytale-app-backend/.env
+
+# Generated files
+fairytale-app-backend/public/audio/
+fairytale-app-backend/public/debug/
+
+# Temporary files
+Nowy Prompt.txt
