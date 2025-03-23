@@ -13,3 +13,15 @@ fairytale-app-backend/public/debug/
 
 # Temporary files
 Nowy Prompt.txt
+
+# Upewnij się, że katalogi istnieją, ale są puste w repozytorium
+mkdir -p fairytale-app-backend/public/audio
+mkdir -p fairytale-app-backend/public/debug
+
+# Utwórz plik .gitkeep, aby zachować puste katalogi w Git
+touch fairytale-app-backend/public/audio/.gitkeep
+touch fairytale-app-backend/public/debug/.gitkeep
+
+# Dodaj te pliki do repozytorium
+git add fairytale-app-backend/public/audio/.gitkeep
+git add fairytale-app-backend/public/debug/.gitkeep
