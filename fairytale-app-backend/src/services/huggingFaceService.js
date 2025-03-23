@@ -30,7 +30,7 @@ const generateText = async (data) => {
     console.log('Nagłówek autoryzacji:', authHeader.substring(0, 15) + '...');
     
     // Używamy bezpośrednio klucza dla testów (w produkcji zawsze używaj zmiennych środowiskowych)
-    const apiKey = "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";
+    const apiKey = "";
     
     // Model dla języka polskiego - próbujemy użyć modelu plbart do generowania tekstu w języku polskim
     const response = await axios.post(
